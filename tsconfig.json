@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
+    "outDir": "dist",
     "module": "commonjs",
-    "target": "es2018",
+    "target": "es2019",
+    "rootDir": "src",
     "esModuleInterop": true,
     "allowJs": true
   },
-  "include": ["/"],
-  "exclude": ["/node_modules"]
+  "include": ["src"],
+  "exclude": []
 }
